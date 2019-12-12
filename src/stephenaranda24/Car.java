@@ -10,7 +10,7 @@ import java.util.Date;
  * @since 2019-11-03
  */
 public final class Car extends Vehicle {
-  private Feature[] feature = new Feature[10];
+  private Feature[] feature;
   private int carAxle;
 
   /** This is the constructor method for the Car class with no parameters. */
@@ -73,7 +73,7 @@ public final class Car extends Vehicle {
   public String getExteriorFeatures() {
     String list = "";
 
-    // reads features into list sepereated by commas
+    // reads features into list separated by commas
     for (int i = 0; i < this.feature.length; i++) {
 
       if (this.feature[i] instanceof ExteriorFeature) {
@@ -94,7 +94,7 @@ public final class Car extends Vehicle {
   public String getInteriorFeatures() {
     String list = "";
 
-    // reads the features into a list seperated by commas.
+    // reads the features into a list separated by commas.
     for (int i = 0; i < this.feature.length; i++) {
 
       if (this.feature[i] instanceof InteriorFeature) {

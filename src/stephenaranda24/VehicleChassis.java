@@ -13,9 +13,11 @@ public class VehicleChassis implements Chassis {
   public VehicleChassis() {
     this.chassisName = chassis;
   }
-  /** Overloaded constructor for the VehicleChassis class.
+  /**
+   * Overloaded constructor for the VehicleChassis class.
+   *
    * @param chassisName A string value that represents the chassis name of this vehicle.
-   * */
+   */
   public VehicleChassis(String chassisName) {
     this.chassisName = chassisName;
   }

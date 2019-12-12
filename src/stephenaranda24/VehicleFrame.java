@@ -23,7 +23,8 @@ public class VehicleFrame implements Chassis {
   public VehicleFrame(String vehicleFrameType) {
     this.vehicleFrameType = vehicleFrameType;
   }
-  /** {@inheritDoc} */
+
+  /** @return */
   public Chassis getChassisType() {
     return this;
   }

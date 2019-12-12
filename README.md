@@ -3,24 +3,25 @@
 
 # **Personal Project (OOP Car Program)**
 
+
+## Author: Stephen Aranda
+**Java Documentation:** [https://stephenaranda24.github.io/OOP_CAR/](https://stephenaranda24.github.io/OOP_CAR/)
+
 This is a detailed timeline of what will be completed in my personal project, which I chose to be developing an OOP Car Program written in the Java language.
 
 1.  First, I will create an interface named Chassis with a public constant string and it will include set and get methods. 
-
-Solution: After creating the interface named Chassis, I created a string constant named chassis and gave it the value of "Chassis". 
-Code: public final String chassis = "Chassis";
     
-2.  Next, I will create an engine interface with the given list of public method definition that return void.
+3.  Next, I will create an engine interface with the given list of public method definition that return void.
     
 4.  Next, I will create a concrete class named VehicleChassis that implements the chassis interface.
     
-5.  Then, I will create a concrete class named VehicleFtame that implememts the chassis interface.
+5.  Then, I will create a concrete class named VehicleFrame that implememts the chassis interface.
     
-6.  Next, I will create a concrtete class named ManufacturedEngine that will implement th engine interface.
+6.  Next, I will create a concrtete class named ManufacturedEngine that will implement the engine interface.
     
-7.  Next, I will creat a feature interface with the given method defintions.
+7.  Next, I will create a feature interface with the given method defintions.
     
-8.  Next, a concrete class named InteriorFeature will be created that implements tha feature interface.
+8.  Next, a concrete class named InteriorFeature will be created that implements that feature interface.
     
 9.  Next, I will create a concrete class named ExteriorFeature that will impllement the feature interface.
     
@@ -32,67 +33,65 @@ Code: public final String chassis = "Chassis";
 
 Sprint 1
 
-_GUI, basic database_
+_Starting the Project_
 
-**Week 1**
+**Week 1:**
+Define a **constructor**: A constructor is a special kind of method that creates an instance of a class.
 
-**Week 2**
+Define the **Final** keyword: It makes the variable it is assigned to a constant and if it is applied to a method, then that method cannot be overridden.
 
-**Week 3**
+Define an **immutable Class**:  An immutable class is a class that cannot be sub-classed.
 
-**Week 4**
+Define an **interface**: An interface is a kind of class that defines constants and methods *without* implementations. It is like a "contract" for the methods.
 
-**Week 5**
+**Week 2:**
 
+In this week I created the Chassis interface. I learned how to create an interface and how to implement the methods that are written in the interface.
+
+**Week 3:**
+
+In this week I created the interface named Engine, this interface contained all the necessary mutator methods.
+
+**Week 4:**
+
+In this week I created the concrete class named VehicleChassis, it implemented the Chassis interface. When writing the getChassisType method I learned how to return an instance of the interface by using the *this* keyword.
+
+**Week 5:**
+
+In this week I created the concrete class named VehicleFrame that implements the Chassis interface.
 
 ## 
 
 Sprint 2
+*Midpoint*
 
-**Week 6 Enum, Interface, Abstract Class**
+**Week 6:**
 
-**Issue 1 - Product**
+In this week I created the concrete class named ManufacturedEngine. I learned that the importance of the order of the fields inside of a constructor is very important when calling that constructor. 
 
-**Week 7 Inheritance**
+**Week 7:**
 
-**Issue 2 - AudioPlayer**
+In this week I created an interface named Feature with their method defintions. I noticed that interfaces are like "contracts" for methods.
 
-**Week 8 Polymorphism**
+**Week 8:**
 
-**Issue 3 - Production**
+In this week, I created the concrete class named InteriorFeature that implements the Feature interface and its methods.
+**Week 9:**
 
-**Week 9 Polymorphism**
-
-**Issue 4 - MoviePlayer**
-
-**Week 10 Encapsulation**
-
-**Issue 5 - MultimediaControl**
+In this week, I created the concrete class named ExteriorFeature which implements the Feature interface.
 
 ## 
 
 Sprint 3
+*End Game*
 
-**Week 11 Lists and ArrayLists**
+**Week 10:**
 
-**Issue 6 - Sorting and Searching**
+In this week, I created another concrete class named Vehicle which both the Engine and the Chassis interfaces along with their methods.
+I learned through the week how overloaded constructors work in detail along with the default constructor.
 
-**Week 12 Lambda Expressions**
+**Week 11:**
+In this week, I created the concrete class named Car that extends the Vehicle class. The for loops for the toString method in this class would have taken me a while to figure out at the beginning of the project, but at this point I made the loop with ease. I then submitted my project on repl.it for confirmation and it passed all tests. Prepared for submission.
 
-**Issue 7 - EmployeeInfo**
-
-**Issue 8 - deptId**
-
-
-**Week 14 Recursion, Modules**
-
-**Issue 9a - Reverse deptId**
-
-
-
-**Issue 9b**
-
-
-
-**Week 15**
-
+**Class Diagram:**
+![Class Diagram of the OOP Car Program](C:%5CUsers%5Cmoart%5COneDrive%20-%20Florida%20Gulf%20Coast%20University%5CIDEAProjects%5COOP_CAR)
