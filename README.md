@@ -92,6 +92,3 @@ I learned through the week how overloaded constructors work in detail along with
 
 **Week 11:**
 In this week, I created the concrete class named Car that extends the Vehicle class. The for loops for the toString method in this class would have taken me a while to figure out at the beginning of the project, but at this point I made the loop with ease. I then submitted my project on repl.it for confirmation and it passed all tests. Prepared for submission.
-
-**Class Diagram:**
-![Class Diagram of the OOP Car Program](C:%5CUsers%5Cmoart%5COneDrive%20-%20Florida%20Gulf%20Coast%20University%5CIDEAProjects%5COOP_CAR)
